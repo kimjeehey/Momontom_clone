@@ -28,8 +28,7 @@ body {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  max-width: 600px;
-  min-width: 400px;
+  width: 480px;
 }
 
 h1 {
@@ -111,9 +110,8 @@ input[type="checkbox"]:checked:after {
 }
 
 .todo-container {
-  max-width: 600px;
-  min-width: 400px;
-  min-height: 80px;
+  width: 400px;
+  height: 80px;
   padding: 2rem 2.5rem 6rem 2.5rem;
   background-color: var(--white-20);
   border-radius: 8px;
