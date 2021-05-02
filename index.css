@@ -245,18 +245,32 @@ button:hover {
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
   .container {
     width: 100%;
-    margin: 0 2rem;
+    margin: 0 3rem;
   }
 
   .todo-container {
-    min-width: 300px;
+    max-width: 75%;
     padding: 2rem 2rem 6rem 2rem;
-    margin: 2rem 0;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   span {
-    width: 260px;
+    width: 60%;
   }
-}
+
+  .add-button {
+    background-color: var(--black-100);
+    color: var(--white-100);
+  }
