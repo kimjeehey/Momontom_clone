@@ -32,22 +32,20 @@ body {
   min-width: 400px;
 }
 
-h1,
-h2 {
+h1 {
+  font-size: 5rem;
   text-align: center;
   font-weight: bold;
   margin: 2rem 0;
 }
 
-h1 {
-  font-size: 5rem;
-}
-
 h2 {
   font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0;
 }
 
-h3,
 h4 {
   text-align: center;
   font-weight: 400;
@@ -60,7 +58,8 @@ h3 {
   padding: 1rem 1.5rem; */
   color: var(--white-100);
   border-radius: 4px;
-
+  text-align: center;
+  font-weight: 400;
   /* display: inline-block; */
 }
 
