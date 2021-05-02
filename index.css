@@ -29,6 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 480px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -110,13 +111,14 @@ input[type="checkbox"]:checked:after {
 }
 
 .todo-container {
-  width: 400px;
+  width: 480px;
   min-height: 80px;
   padding: 2rem 2.5rem 6rem 2.5rem;
   background-color: var(--white-20);
   border-radius: 8px;
   position: relative;
   margin-bottom: 2rem;
+  box-sizing: border-box;
 }
 
 input {
@@ -181,7 +183,7 @@ ul {
 
 li {
   margin: 1.5rem 0;
-  max-width: 500px;
+  max-width: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -244,7 +246,7 @@ button:hover {
 
 @media (min-width: 0px) and (max-width: 500px) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   h2 {
@@ -252,16 +254,12 @@ button:hover {
   }
 
   .container {
-    width: 100%;
-    margin: 0 3rem;
+    width: 90%;
   }
 
   .todo-container {
-    max-width: 75%;
+    width: 100%;
     padding: 2rem 2rem 6rem 2rem;
-    margin: 2rem;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   span {
@@ -272,3 +270,4 @@ button:hover {
     background-color: var(--black-100);
     color: var(--white-100);
   }
+}
