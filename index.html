@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-cover"></div>
+        <!-- 시계 -->
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+
+        <!-- 이름입력 -->
+        <form class="js-greetingsForm form">
+            <input type="text" placeholder=" 👀  What is your name?">
+        </form>
+        <h2 class="js-greetingsText greetings"></h2>
+        
+        <!-- 투두 리스트 -->
+        <div class="todo-container">
+            <h3>📝  To Do List</h3>
+            <ul class="js-toDoList todo-items">
+            </ul>
+            <form class="js-toDoForm todo-form">
+                <input class="js-todoInput" type="text" placeholder=" 👩‍💻  Add your plan for today">
+                <button type="submit" class="add-button">Add</button>
+            </form>
+        </div>
+        
+        <!-- 날씨 -->
+        <h4 class="js-weather"></h4>
+        <!-- js import -->
+    </div>
+    
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
