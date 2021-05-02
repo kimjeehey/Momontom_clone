@@ -110,6 +110,10 @@ input[type="checkbox"]:checked:after {
   left: 8px;
 }
 
+.checked {
+  text-decoration: line-through;
+}
+
 .todo-container {
   width: 480px;
   min-height: 80px;
